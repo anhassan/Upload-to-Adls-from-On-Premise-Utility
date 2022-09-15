@@ -93,12 +93,12 @@ def upload_to_adls(params,file_path):
 if __name__ == "__main__":
 
 	params = {
-	"client_id" : "3c479dca-a03f-427c-ac3d-8087e99badde",
-	"client_secret" : "mDlzp3-~161Lbz3.Tz~2vKUUvcSQ3RYvq1",
-	"tenant_id" : "f1afa148-62d1-472c-b26d-4c1cfdcaa997",
-	"adls_endpoint" : "https://dlstestidp001.dfs.core.windows.net",
-	"adls_root_dir" : "idp-datalake",
-	"adls_dest_dir" : "UKG",
+	"client_id" : "************************",
+	"client_secret" : "************************",
+	"tenant_id" : "*********************",
+	"adls_endpoint" : "https://<adls_storage_account>.dfs.core.windows.net",
+	"adls_root_dir" : "datalake",
+	"adls_dest_dir" : "ingestions",
 	"input_dir_path" : "<path>/*"
 	}
 
